@@ -27,6 +27,7 @@
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
+    margin-top: 20%;
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
@@ -51,4 +52,15 @@
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+}
+
+.content-section{
+    margin-left: 17rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+    height:100vh;
+
 }
