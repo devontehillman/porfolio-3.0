@@ -38,6 +38,11 @@ export default class Navbar extends Component {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#about">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#experience">
                   Experience
                 </a>
@@ -52,16 +57,11 @@ export default class Navbar extends Component {
                   Skills
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#interests">
-                  Interests
-                </a>
-              </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#awards">
                   Awards
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
