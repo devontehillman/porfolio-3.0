@@ -33,21 +33,21 @@ export default class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#about">
+                <a className="nav-link js-scroll-trigger" href="#/">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#about">
+                <a className="nav-link js-scroll-trigger" href="#projects">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#experience">
-                  Experience
+                <a className="nav-link js-scroll-trigger" href="#contact">
+                  Contact
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#education">
                   Education
                 </a>
@@ -56,7 +56,7 @@ export default class Navbar extends Component {
                 <a className="nav-link js-scroll-trigger" href="#skills">
                   Skills
                 </a>
-              </li>
+              </li> */}
               {/* <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#awards">
                   Awards

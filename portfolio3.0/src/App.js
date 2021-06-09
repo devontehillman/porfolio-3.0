@@ -1,7 +1,9 @@
 import './App.css'; 
+import "./components/FontAwesomeIcons";
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 import {HashRouter as Router, Switch, Route} from "react-router-dom";
 import {Container} from 'react-bootstrap'
 
@@ -9,14 +11,16 @@ import {Container} from 'react-bootstrap'
 function App() {
   return (
     <div>
+    <Router>
      <Navbar/>
-     {/* <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/home" exact component={Home}/>
+     <Switch>
+        <Route path="/" exact component={About}/>
+        <Route path="/projects" exact component={Projects}/>
         <Route path="/contact" exact component = {Contact}/>
-      </Switch> */}
+      </Switch>
      {/* <About/> */}
-     <Projects/>
+     {/* <Projects/> */}
+     </Router>
     </div>
   );
 }

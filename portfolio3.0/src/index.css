@@ -16,3 +16,11 @@ code {
   background-image: linear-gradient(205deg,#eb5757 0%,#000000 100%)!important;
  
  }
+
+.socials{
+  display : flex;
+  justify-content: center;
+}
+.socialIcon{
+  margin: 1em;
+}

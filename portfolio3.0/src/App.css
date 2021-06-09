@@ -54,7 +54,7 @@
   }
 }
 
-.content-section{
+.about-section{
     margin-left: 17rem;
     padding-left: 4.5rem;
     padding-right: 10rem;
@@ -62,5 +62,24 @@
     padding-bottom: 5rem;
     max-width: 75rem;
     height:100vh;
+}
 
+.project-section{
+  margin-left: 17rem;
+  padding-left: 4.5rem;
+  padding-right: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+  height:100vh;
+}
+
+.contact-section{
+  margin-left: 17rem;
+  padding-left: 4.5rem;
+  padding-right: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+  height:100vh;
 }

@@ -22,29 +22,5 @@
     "description":"I created this page as personal portfolio for my shoe customizing and collecting hobby using bootstrap. This site hasa links to my instagram as well as photos of shoes that I enjoyed working on.",
     "gitRepo":"https://github.com/devontehillman/portfolio",
     "livePage":"https://devontehillman.github.io/portfolio/"
-    },
-    {
-    "id": 4,
-    "image":"./images/page4.png",
-    "title":"MyCorp",
-    "description":"This is a command line application that is designed for a Management company.This program is also a CMS(content management system) that is designed to allow a manager to view, add, and edit their company's employees, departments, and roles. ",
-    "gitRepo":"https://github.com/devontehillman/MyCorp",
-    "livePage":""
-    },
-    {
-    "id": 5,
-    "image":"./images/page5.png",
-    "title":"Coding Quiz",
-    "description":"This is a quiz app that keeps track of the users highest five scores. This program take advantage of local browser storage.",
-    "gitRepo":"https://github.com/devontehillman/coding_quiz",
-    "livePage":"https://devontehillman.github.io/coding_quiz/"
-    },
-    {
-    "id": 6,
-    "image":"./images/page6.png",
-    "title":"Noted",
-    "description":"This application is a note taker. The user is prompted to make a note by inputting the title and the text. Upon saving the note is saved to a data base and the page updates.",
-    "gitRepo":"https://github.com/devontehillman/Noted",
-    "livePage":"https://obscure-inlet-06343.herokuapp.com"
     }
 ]

@@ -17,8 +17,8 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <div className="content-section">
-        <Card>
+      <div className="project-section">
+        
         {/* <Carousel nextIcon={this.state.nextIcon} prevIcon={this.state.prevIcon}>
           <Carousel.Item>
             <img
@@ -74,7 +74,7 @@ export default class Projects extends Component {
             ))}
             </Row>
 
-        </Card>
+        
       </div>
     );
   }
