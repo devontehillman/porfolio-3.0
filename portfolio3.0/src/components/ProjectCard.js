@@ -3,6 +3,7 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 //import Button from "react-bootstrap/Button";
+import {Link} from "react-router-dom"
 
 function ProjectCard(props) {
     console.log(props)
@@ -12,17 +13,13 @@ function ProjectCard(props) {
                 <Card.Header style={{display:"flex",justifyContent:"center"}}>{props.title}</Card.Header>
                 <Card.Img variant="top" src={props.image} />
                 <Card.Body>
-                <a href="">
+
+
+                <Link to={`/description/${props.id }`}   className="btn btn-primary">
+                Learn More
+                </Link>     
+                {/* <a href="#description">
                 <h3>Learn More</h3>
-                </a>
-                {/* <a href={props.livePage}>
-                <h3>Deployed Page</h3>
-                </a>
-                <Card.Text>
-                {props.description}
-                </Card.Text>
-                <a href={props.gitRepo}>
-                <h3>Git Repo</h3>
                 </a> */}
                 </Card.Body>
             </Card>

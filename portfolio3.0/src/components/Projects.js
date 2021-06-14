@@ -65,11 +65,9 @@ export default class Projects extends Component {
             {this.state.projects.map(project =>(
             <ProjectCard style={{display:"flex"}}
             key = {project.id}
+            id = {project.id}
             title ={project.title}
             image =  {project.image}
-            description = {project.description}
-            gitRepo =  {project.gitRepo}
-            livePage =  {project.livePage}
             ></ProjectCard>
             ))}
             </Row>
