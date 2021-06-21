@@ -25,7 +25,7 @@ export default class ProjectDescription extends Component {
         return (
             <div className="project-section">
                 <h1>{selectedProject.title}</h1>
-                <img src={selectedProject.image} alt="Webpage" />
+                <img style = {{maxWidth:"100%"}} src={selectedProject.pageImage} alt="Webpage" />
                 <div style={{display: 'flex', justifyContent: 'space-around'}}>
                     <a href={selectedProject.livePage}>
                         <h1>Deployed Page</h1>

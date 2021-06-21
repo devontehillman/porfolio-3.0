@@ -2,6 +2,7 @@
     {
     "id": 1,
     "image":"./images/page1.png",
+    "pageImage":"./images/webpage1.png",
     "title":"BITRate",
     "description":"Group project to created a bitcoin currency converter which takes the current value of bitcoin in usd and converts it to bitcoin in the user's selected currency.",
     "gitRepo":"https://github.com/devontehillman/Bitcoin-Curreny-Converter",
@@ -10,6 +11,7 @@
     {
     "id": 2,
     "image":"./images/gimmie-1.png",
+    "pageImage":"./images/webpage2.png",
     "title":"Gimmie'Dat'Burger",
     "description":"This was the first full stack website that I built. It is deployed on heroku. It uses a MVC  structure.This is a app that allows the users to add a `burger bucket list` when the user submits the burgers they are save to a database.  ",
     "gitRepo":"https://github.com/devontehillman/GimmeDatBurger",
@@ -18,6 +20,7 @@
     {
     "id": 3,
     "image":"./images/page3.png",
+    "pageImage":"./images/webpage3.png",
     "title":"Phenomenal Kickz",
     "description":"I created this page as personal portfolio for my shoe customizing and collecting hobby using bootstrap. This site hasa links to my instagram as well as photos of shoes that I enjoyed working on.",
     "gitRepo":"https://github.com/devontehillman/portfolio",
