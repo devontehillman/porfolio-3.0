@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import projects from "../project.json"
-
+import Button from "react-bootstrap/button"
 
 export default class ProjectDescription extends Component {
     constructor(props) {
@@ -24,17 +24,19 @@ export default class ProjectDescription extends Component {
 
         return (
             <div className="project-section">
-                <h1>{selectedProject.title}</h1>
-                <img style = {{maxWidth:"100%"}} src={selectedProject.pageImage} alt="Webpage" />
-                <div style={{display: 'flex', justifyContent: 'space-around'}}>
+                <h1 style={{textDecoration:"underline", textAlign:"center"}}>{selectedProject.title}</h1>
+                
+                <img style = {{maxWidth:"100%",boxShadow:" 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}} src={selectedProject.pageImage} alt="Webpage" />
+                <div style={{display: "flex", justifyContent: "space-around", marginTop:"-45px"}}>
                     <a href={selectedProject.livePage}>
-                        <h1>Deployed Page</h1>
+                        <Button variant="danger">Deployed Page</Button>
                     </a>
                     <a href={selectedProject.gitRepo}>
-                        <h1>Github Repo</h1>
+                        <Button variant="danger">Github Repo</Button>
                     </a>
                 </div>
-                <h2>{selectedProject.description}</h2>
+                <h2 style={{marginTop: "15px"}}>This Project</h2>
+                <p>{selectedProject.description}</p>
             </div>
         )
     }
